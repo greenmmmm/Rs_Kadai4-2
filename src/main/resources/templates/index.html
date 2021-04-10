@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8">
-<title>第4回_Raisetech</title>
+  <meta charset="UTF-8">
+  <title>第4回_Raisetech</title>
 </head>
+
 <body>
 <h1>第4回課題</h1>
 <h2>おやつリスト</h2>
+
     <table border="1">
-        <tr>
-            <th>ID</th>    
-            <th>名前</th>
-            <th>カロリー</th>
-        </tr>
-        <tr th:each="info: ${okashi}">
-            <td th:text="${info.id}">
-            <td th:text="${info.name}">
-            <td th:text="${info.kal}">
-         </td>
-         </tr>
-     </table>
+            <tr>
+                <th>ID</th>
+
+            </tr>            
+    </table>
+    <br/><br/>
+    <input type="submit" value="検索" /><br/><br/>
+
 </body>
+
 </html>
