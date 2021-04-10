@@ -1,6 +1,9 @@
 package com.example.demo.form;
 
-public class SearchForm {
+import lombok.Data;
 
+@Data
+public class SearchForm {
+	private String searchId;
 
 }
